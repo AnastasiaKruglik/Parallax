@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color: #857c7ca9;
+    border: 2px solid #857c7c;
+    color: #2b1915;
+    display: inline-block;
+    font-size: 5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: #dbdbda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d2d27;
+    padding: 0 15rem;
+    font-size: 1.5rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #7189939a;
+    border: 2px solid #718993;
+    color: #83173f;
+    display: inline-block;
+    font-size: 5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    height: 250px;
+    background-color: #c8d2dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2c1212;
+    font-size: 1.5rem;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #2d4154;
+    color: #c8d2dc;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #b0b9c2;
+    text-decoration: none;
+
+}
+
+.footer ul li:hover {
+    color: #f8fcff;
+    transform: scale(1.5);
+}
+
+.original-image {
+    background-attachment: fixed;
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.original-image__link a {
+    background-color: #c58f8ca9;
+    border: 2px solid #c58f8c;
+    color: #2c6162;
+    display: inline-block;
+    font-size: 5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.original-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.original-text {
+    height: 250px;
+    background-color: #d8aba8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #172053;
+    font-size: 1.5rem;
+    padding: 0 15rem;
+}
+
+.original-text__textbox h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
